@@ -2,7 +2,7 @@
 """Class square"""
 
 
-class square:
+class square():
     """Class square"""
 
     def __init__(self, width = 0):
