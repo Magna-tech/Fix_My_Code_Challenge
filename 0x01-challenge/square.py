@@ -8,6 +8,7 @@ class square():
     width = 0
 
     def __init__(self, *args, **kwargs):
+        """Initialization"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -16,9 +17,11 @@ class square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """Perimeter of the square"""
         return (self.width * 4)
 
     def __str__(self):
+        """Print side of the square"""
         return "{}/{}".format(self.width, self.width)
 
 
